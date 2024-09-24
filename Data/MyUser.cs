@@ -1,6 +1,8 @@
-﻿namespace FlightTickets.Data;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class MyUser
+namespace FlightTickets.Data;
+
+public class MyUserIdentity : IdentityUser
 {
-    
+    public string? MyBestFriend { get; set; }
 }

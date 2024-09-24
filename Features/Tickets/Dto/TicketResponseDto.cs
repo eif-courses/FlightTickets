@@ -2,5 +2,5 @@
 
 public class TicketResponseDto
 {
-    
+    public int TicketNumber { get; set; }
 }
